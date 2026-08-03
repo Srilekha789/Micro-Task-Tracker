@@ -1,0 +1,15 @@
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
