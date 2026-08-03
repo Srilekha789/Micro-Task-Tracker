@@ -3,16 +3,6 @@ generate_data.py
 ----------------
 Simulates a raw data export from a custom-built "To-Do" task tracking app.
 
-Why this file exists:
-    Real production logs aren't available for a portfolio project, so this
-    script generates a realistic stand-in: 5,000+ task entries with the same
-    kinds of problems real user-generated logs have -- missing durations,
-    missing categories, duplicate/typo'd category labels, and a handful of
-    extreme outlier durations (e.g. someone left a timer running overnight).
-
-Run this once to produce data/raw_task_logs.csv, which the analysis
-notebook (notebooks/task_tracker_analysis.ipynb) then cleans and analyzes.
-"""
 
 import numpy as np
 import pandas as pd
